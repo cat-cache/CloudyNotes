@@ -4,7 +4,7 @@ const User = require('../models/User')
 const { check, validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const JWT_SECRET="DivamYadav";
+const JWT_SECRET="vyvyvy";
 const fetchuser = require('../middleware/fetchuser')
 
 //ROUTE 1-Create a user using POST:/api/auth/
